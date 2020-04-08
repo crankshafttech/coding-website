@@ -1,4 +1,5 @@
 console.log('javascript active');
+
 document.getElementById("menuButton2").style.opacity = "1"
 document.getElementById("menuButton").style.opacity = "1"
 
@@ -10,6 +11,7 @@ function openSidebar() {
   document.getElementById("menuButton").style.opacity = "0"
   document.getElementById("menuButton2").style.opacity = "0"
   if (screen.width <  500) {
+  document.getElementById("body").style.overflow = "hidden"
   document.getElementById("mainMenu").style.left = "0"
 }
 else {
@@ -19,9 +21,11 @@ else {
 }
 
 function closeSideBar() {
-  document.getElementById("mainMenu").style.right = "-300px"
-  document.getElementById("mainMenu").style.left = "100%"
+document.getElementById("body").style.overflow = "visible"
+document.getElementById("mainMenu").style.right = "-300px"
+document.getElementById("mainMenu").style.left = "100%"
 document.getElementById("body").style.filter = "grayscale(0)";
 document.getElementById("menuButton").style.opacity = "1"
 document.getElementById("menuButton2").style.opacity = "1"
+
 }
