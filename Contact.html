@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html id="body">
+    <head>
+        <title>Crankshaft Tech Coding - Contact</title>
+        <link rel="stylesheet" type="text/css" href="style6.css"/>
+        <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="0" />
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130790158-1"></script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+        <script src="javascript.js"></script>
+        <script src="contact.js"></script>
+
+    </head>
+    <body>
+      <div id="container">
+
+          <div id="header">
+              <div id="logo">
+                  <a  href="index.html"><img class="imglogo"  src="logo.png" width="100%"/></a>
+              </div>
+              <div class="dropimg">
+              <img onclick="openSidebar()" id="menuButton2" class="dropbtn2" src="menu.png">
+            </div>
+              <div class="dropdown" style="float:right;">
+                <button class="dropbtn" id="menuButton" onclick="openSidebar()">Menu</button>
+                <div class="sideMenu" id="mainMenu">
+                  <a href="javascript:void(0)" class="closebtn" onclick="closeSideBar()">&times;</a>
+                <div class="dropdown-content" >
+                    <a href="index.html">Home</a>
+                    <a class="selected">Contact</a>
+                    <a href="Lessons.html">Lessons</a>
+                    <a href="AboutMe.html">About Me</a>
+                    <a href="https://blog.crankshafttech.com/" target="_blank">My Blog</a>
+                    <a href="WhatIsScratch.html">What is Scratch?</a>
+                    <a href="WhatIsSmallBasic.html">What is Small Basic?</a>
+                    <a href="WhatIsMicroBit.html">What is Micro:Bit?</a>
+
+                  </div>
+                  </div>
+                </div>
+                <div id="title">
+                    <h1>Crankshaft Technology</h1>
+                </div>
+            </div>
+
+            <div id="content">
+                <div id="main">
+                    <h1>Contact</h1>
+                    <p>For more information or to enquire, please complete the form below:</p>
+
+                    <input type="button" id="button2" value="Chech Out The Facebook Page!" onclick="window.location.href='https://www.facebook.com/crankshafttech'"><br>
+
+                    <p>Send me an email at <a href="mailto:contact@crankshafttech.com">contact@crankshafttech.com</a></p>
+
+                    <div class="contact">
+                      <!--  <iframe scrolling="no" class="form" src="https://docs.google.com/forms/d/e/1FAIpQLSc2L_xdXXdTwGjnkmN_rlfst-UfT5qo81Zqe6jHXApfPoCRHw/viewform?embedded=true" height="760"></iframe> -->
+
+                      <form class="form" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSc2L_xdXXdTwGjnkmN_rlfst-UfT5qo81Zqe6jHXApfPoCRHw/formResponse" method="post">
+
+                        <div class="field">
+                          <label for="">Name:</label>
+                          <input placeholder="John Smith" type="text" name="entry.2005620554" id="name" value=""/>
+                        </div>
+
+                        <div class="field">
+                          <label for="">Email:</label>
+                          <input placeholder="email@example.com" type="text" id="email" name="entry.1045781291" value=""/>
+                        </div>
+
+                        <div class="field">
+                          <label for="">Phone (optional):</label>
+                          <input  type="tel" placeholder="xx-xxxx-xxxx" id="phone" name="entry.1166974658" value=""/>
+                        </div>
+
+                        <div class="field">
+                          <label for="">Message:</label>
+                          <textarea type="textarea" id="message" name="entry.839337160" value=""> </textarea>
+                        </div>
+
+                        <div>
+                          <button id="sendMessage"  type="submit" name="button">Send</button>
+                          <button id="reset" type="reset" name="button">Reset</button>
+                        </div>
+
+                      </form>
+                    </div>
+                </div>
+            </div>
+
+            <div id="copyright">
+                Copyright &copy; 2019 Crankshaft Technology
+            </div>
+        </div>
+    </body>
+</html>
