@@ -95,7 +95,6 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Overpass';
     font-size: 20px;
     padding-left: 10px;
-    color: red;
 }
 
 .dropbtn2{
@@ -150,7 +149,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .closebtn:hover{
-  transform: scale(1.5);
+    transform: scale(1.5);
+
 }
 
 .sideMenu{
