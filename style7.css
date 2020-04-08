@@ -18,6 +18,9 @@ input {
   -webkit-appearance: none;
 }
 
+#body{
+    overflow-x: hidden;
+}
 
 body {
   background: url(images/bg.jpg) no-repeat center center fixed;
@@ -65,6 +68,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-right: auto;
     margin-top: auto;
     border-radius: 7px;
+      overflow-x: hidden;
 }
 
 .overlay{
@@ -149,14 +153,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .closebtn:hover{
-    transform: scale(1.5);
 
 }
+
 
 .sideMenu{
   z-index: 1;
   position: fixed;
-  right: -300px;
   top: 0;
   height: 100%;
   background-color: rgba(23, 23, 23, 0.95);
@@ -471,6 +474,7 @@ iframe{
   .dropbtn2{
     display: none;
   }
+
 
   .dropbtn {
       width: 82px;
