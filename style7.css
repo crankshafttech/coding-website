@@ -34,6 +34,7 @@ body {
     background-color: #363738;
     background-position: top;
     font-family: Arial Black, Arial, sans-serif;
+    overscroll-behavior-x: none;
 }
 
 
