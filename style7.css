@@ -26,6 +26,7 @@ body {
   -o-background-size: cover;
   background-size: cover;
   overflow-x: hidden;
+  -moz-overflow-x:hidden;
 }
 
 body {
